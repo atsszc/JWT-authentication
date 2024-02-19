@@ -96,12 +96,12 @@ function App() {
             <span className="formTitle">Karam Social Giriş Ekranı</span>
             <input
               type="text"
-              placeholder="username"
+              placeholder="Kullanıcı adı"
               onChange={(e) => setUsername(e.target.value)}
             />
             <input
               type="password"
-              placeholder="password"
+              placeholder="Şifre"
               onChange={(e) => setPassword(e.target.value)}
             />
             <button type="submit" className="submitButton">
